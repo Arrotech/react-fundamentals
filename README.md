@@ -68,3 +68,40 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+What is react?
+
+React is an open source javascript library for building user interfaces.
+React has a rich ecosystem that handles routing, http requests and other functionalities.
+React was created and maintained by facebook.
+
+Architecture
+
+React is made of components which can be combined to make a rich and huge UI.
+Component make it possible to have reusable code in angular and vue.
+React is declarative.
+
+Prerequisites
+HTML, CSS and JavaScript(ES6).
+
+javascript-"this" keyword, map, filter and reduce
+ES6-let & const, arrow functions, template literals, default parameters, object literals, rest and spread operators, and destructuring assignment.
+ 
+
+Components
+
+Root/app component
+
+component types
+
+stateless functional component 
+
+- these are simply javascript functions which return html which describe the UI.
+
+
+stateful class component 
+
+- are regular es6 classes that extend the component class from react library.
+-they contain a render method which return HTML.
+
