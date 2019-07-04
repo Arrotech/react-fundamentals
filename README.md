@@ -25,7 +25,7 @@ As a beginner one should acquire the below basics.
 
 **Component types**
 
-1. **Stateless functional components**
+1. **Functional components**
 
 - These are simply javascript functions which return html which describe the UI.
 
@@ -36,10 +36,11 @@ As a beginner one should acquire the below basics.
 
 **Functional vs Class components**
 
-1. **Functional/dumb/stateless/presentational components**
+1. **Functional components**
 
 - Absence of "this" keyword
 - Focuses on the UI rather than complicated states
+- Provide lifecycle hooks 
 
 2. **Class/stateful/smart/container components**
 
@@ -47,3 +48,20 @@ As a beginner one should acquire the below basics.
 - Complex UI logic
 - Provide lifecycle hooks 
 
+**Update on Functional components**
+
+Functional is no longer stateless. It can use hooks to implement state.
+
+**JSX**
+
+- JavaScript XML(JSX) is an extension to the javascript language syntax.
+- Uses tags, elements, attribute and children.
+
+**JSX vs HTML**
+
+Use of camelCase.
+
+- class => className
+- for => htmlFor
+- onclick => onClick
+- tabindex => tabIndex
