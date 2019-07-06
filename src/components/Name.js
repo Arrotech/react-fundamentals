@@ -6,8 +6,15 @@ import React from 'react'
 // }
 
 
-//using arrow function
-const Name = () => <h1>Arrotech</h1>
+//using arrow function and props
+const Name = (props) => {
+    return (
+        <div>
+            <h1>Hello {props.name} a.k.a {props.nickName}</h1>
+            {props.children}
+        </div>
+    )
+}
 
 //export the component as default contary to named export
 export default Name;

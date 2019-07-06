@@ -65,3 +65,21 @@ Use of camelCase.
 - for => htmlFor
 - onclick => onClick
 - tabindex => tabIndex
+
+
+**PROPS**
+
+Props short form of properties, are immutable. This means its value cannot be changed.
+In a functional component props is passed inside the brackets and to retrieve the content the following syntax is used `{props.name}`
+
+        const Name = (props) => {
+
+In a class component the props is not passed inside the brackets but instead `this` keyword function is used to render the html property i.e `{this.props.name}`
+
+Incase props has children, all content has to be returned in one element i.e `div`
+
+        <div>
+            <h1>Hello {props.name} a.k.a {props.nickName}</h1>
+            {props.children}
+        </div>
+
