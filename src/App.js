@@ -8,8 +8,16 @@ import Jsx from './components/Jsx'
 function App() {
   return (
     <div className="App">
-      {/* <Name/>
-      <Arrotech/> */}
+      <Name name="Harun" nickName="Arrotech" >
+        <div>
+          <p>This is a child of props</p>
+        </div>
+      </Name>
+      <Arrotech name="Harun" nickName="Arrotech">
+        <div>
+          <button>Arrotech</button>
+        </div>
+      </Arrotech>
       <Jsx/>
     </div>
   );
